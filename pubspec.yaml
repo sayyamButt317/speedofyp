@@ -1,0 +1,103 @@
+name: speedo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 
+  google_fonts: 
+  fluttertoast: 
+  awesome_snackbar_content:
+  simple_fontellico_progress_dialog:
+  line_icons: 
+  
+
+  #Maps Packages
+  geolocator:
+  google_maps_flutter: 
+  location: 
+  flutter_polyline_points:  
+  geocoding: 
+ 
+
+  #validations
+  form_validator: 
+  google_sign_in:
+
+
+  #Firebase
+  firebase_auth: 
+  firebase_core: 
+  cloud_firestore: 
+  firebase_storage:
+
+  #statemanagment
+  get: 
+  path:
+  http:
+  url_launcher: 
+  image_picker: 
+  flutter_native_splash:
+  flutter_barcode_scanner:
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  color: "#ffffff"
+  image: images/logo.png
+
+  android_12:
+    image: images/logo.png
+    icon_background_color: "#ffffff"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - images/blackpin.png
+   - images/card.jpg
+   - images/lock.png
+   - images/redpin.png
+   - images/location-map.gif
+   - images/logo.png
+   - images/google-logo.png
+   - images/email.png
+   - images/avatar.jpg
+   - images/qrcode.png
+   - images/circle.png
+   - images/Accept.png
+   - images/reject.png
+   - images/bus-icon.png
+   - Map_style/
+  #  - Map_style/Silver_theme.json
+  #  - Map_style/night_theme.json
+  #  - Map_style/dark_theme.json
+  #  - images/a_dot_ham.jpeg
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
